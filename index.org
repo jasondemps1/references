@@ -1,0 +1,56 @@
+#+TITLE: Programming References
+#+STARTUP: show2levels
+#+OPTIONS: toc:nil num:nil
+
+Personal quick-reference wiki. Press =TAB= to fold/unfold, =RET= on links to follow.
+
+* Languages
+
+** Common Lisp
+:PROPERTIES:
+:CUSTOM_ID: common-lisp
+:END:
+
+[[file:cl/index.org][Common Lisp References]]
+
+- [[file:cl/loop.org][LOOP Macro]] — iteration DSL, keywords, accumulation, termination
+- [[file:cl/format.org][FORMAT Directives]] — ~a, ~s, ~d, control flow, iteration (TODO)
+- [[file:cl/clos.org][CLOS]] — defclass, defmethod, method combination (TODO)
+- [[file:cl/conditions.org][Conditions & Restarts]] — handler-case, handler-bind, restarts (TODO)
+
+** Emacs Lisp
+:PROPERTIES:
+:CUSTOM_ID: emacs-lisp
+:END:
+
+- [[file:elisp/index.org][Emacs Lisp References]] (TODO)
+
+* Tools
+
+** Emacs
+:PROPERTIES:
+:CUSTOM_ID: emacs
+:END:
+
+- [[file:emacs/org-mode.org][Org Mode]] (TODO)
+- [[file:emacs/sly.org][Sly]] — Common Lisp IDE (TODO)
+
+* Game Dev
+:PROPERTIES:
+:CUSTOM_ID: gamedev
+:END:
+
+- [[file:gamedev/opengl.org][OpenGL]] (TODO)
+
+* Navigation Tips
+
+| Key       | Action                          |
+|-----------+---------------------------------|
+| =RET=     | Follow link under cursor        |
+| =C-c &=   | Jump back after following link  |
+| =TAB=     | Fold/unfold section             |
+| =S-TAB=   | Cycle global visibility         |
+| =C-c C-j= | Jump to heading (org-goto)      |
+| =SPC s i= | Doom: imenu heading search      |
+| =q=       | Close reference window          |
+

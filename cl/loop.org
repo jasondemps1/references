@@ -1,6 +1,9 @@
 #+TITLE: Common Lisp LOOP Macro Quick Reference
 #+STARTUP: overview
 #+PROPERTY: header-args:lisp :exports code :eval no
+#+OPTIONS: toc:nil num:nil
+
+[[file:index.org][← Common Lisp]] | [[file:../index.org][← Index]]
 
 A practical reference for the extended LOOP macro. Keywords can be symbols (~for~) or keywords (~:for~)—they're equivalent.
 
